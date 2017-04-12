@@ -34,16 +34,16 @@
 }
 
 /*MEDIA QUERIES*/
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .blue {
     background-color: yellow;
   }
   .orange {
-    background-color: black;
+    background-color: green;
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     .blue {
       background-color: red;
     }
