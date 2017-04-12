@@ -34,16 +34,28 @@
 }
 
 /*MEDIA QUERIES*/
+<<<<<<< HEAD
 @media screen and (min-width: 768px) {
+=======
+@media screen and (max-width: 768px) {
+>>>>>>> 7aaa7f8d35524f7de5f1901af66064299e873eff
   .blue {
     background-color: yellow;
   }
   .orange {
+<<<<<<< HEAD
     background-color: black;
   }
 }
 
 @media screen and (min-width: 375px) {
+=======
+    background-color: green;
+  }
+}
+
+@media screen and (max-width: 375px) {
+>>>>>>> 7aaa7f8d35524f7de5f1901af66064299e873eff
     .blue {
       background-color: red;
     }
