@@ -35,12 +35,19 @@
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 768px) {
-  .blue, .green, .red, .turqoise, .orange, .black {
-    background-color: red;
+  .blue {
+    background-color: yellow;
   }
+  .orange {
+    background-color: black;
+  }
+}
 
-  @media screen and (min-width: 375px) {
-    .black {
-      background-color: blue;
+@media screen and (min-width: 375px) {
+    .blue {
+      background-color: red;
+    }
+    .orange {
+      background-color: purple;
     }
 }
